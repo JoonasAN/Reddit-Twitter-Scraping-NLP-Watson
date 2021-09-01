@@ -57,7 +57,7 @@ Following instructions show how to create Watson services.
 1. On IBM Cloud, create a [Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) service by clicking link or navigating to catalog tab and searching "Natural Language Understanding".
 2. Under `Select a pricing` plan select `Lite` and click `create`.
 
-![nlu-service](images/NLU_creation.png)
+![nlu-service](NLU_creation.png)
 
 3. In Natural Language Understanding dashboard, open `Services Credentials` tab from left side of the screen, and
 click `New credential`. After creating credencials copy them by clicking two overlapping squares and paste them in [naturallanguageunderstanding.json](./Reddit/V2/NLP/naturallanguageunderstanding.json) found in repository.
