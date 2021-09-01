@@ -46,18 +46,24 @@ def sample_data(twitterFile, redditFile, size:int):
     return(sample1, sample2)
 
 
-def merge_samples(twitterFile, redditFile, path):
-
+def merge_data(twitterFile, redditFile, path):
+    """
+    Returns csv of merged data.
+    
+    """
     # load data
     df1 = pd.read_csv(twitterFile+'.csv', sep = ',')
     df2 = pd.read_csv(redditFile+'.csv', sep = ',')
 
-    # merge dataframes
-    frames = [df1, df2]
-    df3 = pd.concat(frames)
+    # add source column
+    df1['source'] = 'twitter'
+    df2['source'] = 'reddit'
+
+    # merge samples
+    df3 = df1.append(df2,ignore_index=True)
 
     # save data
-    with open(path+input("\nName the csv file: ")+'.csv', 'a' ,encoding='utf-8') as csvFile:
+    with open(path+input("\nName the merged CSV-file: ")+'.csv', 'a' ,encoding='utf-8') as csvFile:
         df3.to_csv(csvFile, mode='a', index=False, encoding="utf-8", sep=',')
 
 def calculate_complexity(data):
