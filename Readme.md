@@ -15,7 +15,9 @@ So far in this code NLU is used to extract Part-of-speech features (adjectives, 
       pip install -r requirements.txt
       ```
 3. Clone repository locally
-
+    ```powershell
+    git clone https://github.com/JoonasAN/Reddit-Twitter-Scraping-NLP-Watson.git
+    ```
 # Setup
 1. [Twitter Sraping Via Tweepy](#1-twitter-scraping-via-tweepy)
 2. [Reddit Scraping Via PushshiftAPI](#2-reddit-scraping-via-pushshiftapi)
@@ -84,32 +86,3 @@ click `New credential`. After creating credencials copy them by clicking two ove
 # Misc
 Repository has misc.py-file which has some unfinished/unused funtions.
 
-
-# To-Do 
-
-- [x] Twitter-hausta ~1500 tulosta ja redditistä ~1500 tulosta
-  
-- [x] Lisää progress bar twitteriin
-
-- [x] Hae twitteristä vastaavat datat frameen kuin redditistä
-  
-- [x] Yhdistä datat yhdeksi dataframeksi (tehdään cmas moduulissa)
-  
-- [x] Tee 'source' column (twitter/reddit) (tehdään cmas moduulissa)
-  
-- [x] NLP ja tone analyzerin läpi molemmat (voi tehdä esim 100 kerrallaan molemmista niin epätodennäköisempää että kun ilmaiset haut loppuu kesken jäisi jotenki epäsuhtainen määrä
-  
-- [x] Tee kompleksisuus functio moduuliin
-
- 
-- [x] Kompleksisuus -arvo laskettu molemmille datoille
- 
-- [ ] Kuvaajat missä näkyy erot (watson parametrit, kompleksisuus, word cloud?)
- 
-- [x] ReadME:n teko loppuun
-
-- [x] Päivitä nyt samalla twitter-readme ja twitter_searchin kommentit kun työstät sitä
- 
-- [x] Koodin siistimiset, "turhat rivit" tai debuggailu-rivit ja debuggailu outputit yms voi jättää koodiin mutta kommentoida pois
-  
-- [x] lisää "id" NLU:hun
