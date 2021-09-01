@@ -78,7 +78,7 @@ click `New credential`. After creating credencials copy them by clicking two ove
 
 # Run Order
 1. twitter_search.py and reddit_search.py
-2. calculate_complexity.py
+2. calculate_complexity.py (for both reddit and twitter data)
 3. Watson_Tone.py
 4. Watson_NLU.py
 5. make_wordclouds.py
