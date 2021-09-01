@@ -62,9 +62,6 @@ Following instructions show how to create Watson services.
 3. In Natural Language Understanding dashboard, open `Services Credentials` tab from left side of the screen, and
 click `New credential`. After creating credencials copy them by clicking two overlapping squares and paste them in [naturallanguageunderstanding.json](./Reddit/V2/NLP/naturallanguageunderstanding.json) found in repository.
 
-![](images/NLU_credencials.gif)
-
-
 ### 4.2 Create Tone Analyzer Service
 
 To create Tone Analyzer service and credencials, follow the same rules as NLU service and credensials creation.
@@ -78,10 +75,10 @@ click `New credential`. After creating credencials copy them by clicking two ove
 
 # Run Order
 1. twitter_search.py and reddit_search.py
-2. calculate_complexity.py (for both reddit and twitter data)
-3. Watson_Tone.py
-4. Watson_NLU.py
-5. make_wordclouds.py
+2. merge_data.py
+3. calculate_complexity.py
+5. Watson_NLU.py
+6. make_wordclouds.py
 
 # Misc
 Repository has misc.py-file which has some unfinished/unused funtions.
