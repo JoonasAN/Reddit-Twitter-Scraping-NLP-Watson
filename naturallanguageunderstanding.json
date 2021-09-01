@@ -1,0 +1,8 @@
+{
+  "apikey": "GYHjGuqfQLsN6zn6fkYnYboNvwn1OYdm8Bd9Z9FYTAbn",
+  "iam_apikey_description": "Auto-generated for key 0d7a8b10-2925-40c8-b75d-6b7bad93dfcd",
+  "iam_apikey_name": "Service credentials-1",
+  "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+  "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/98f85fad948c4a9cbc66487505ab6601::serviceid:ServiceId-12f943e6-b270-4122-a73a-641918d15580",
+  "url": "https://api.eu-gb.natural-language-understanding.watson.cloud.ibm.com/instances/395db9c3-c034-4b4c-9651-9a141de8f3f8"
+}
