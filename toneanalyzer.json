@@ -1,8 +1,8 @@
 {
-    "apikey": "OPdUt7ELbt3ZkkNhvAcaRW2JfFidgkHWoeWA6Qa78bFk",
-    "iam_apikey_description": "Auto-generated for key d3b715ac-4832-48b8-b23d-0385e53a8c0a",
-    "iam_apikey_name": "Service credentials-1",
-    "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
-    "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/98f85fad948c4a9cbc66487505ab6601::serviceid:ServiceId-d307ff51-5d32-4c29-85f6-ecd21f2d7f11",
-    "url": "https://api.eu-gb.tone-analyzer.watson.cloud.ibm.com/instances/2a511274-44e7-4f59-aa7b-51945bc3702a"
+    "apikey": "",
+    "iam_apikey_description": "",
+    "iam_apikey_name": "",
+    "iam_role_crn": "",
+    "iam_serviceid_crn": "",
+    "url": ""
   }
